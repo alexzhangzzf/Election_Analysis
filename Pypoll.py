@@ -10,7 +10,7 @@ import os
 #with statement to open the file
 
 file_to_load= os.path.join("Resources","election_results.csv")
-file_to_save = os.path.join("analysis", "election_analysis.txt")
+file_to_save = os.path.join("Analysis", "election_analysis.txt")
 
 total_votes = 0
 candidate_options = []
@@ -60,11 +60,11 @@ with open(file_to_save, "w") as txt_file:
             winning_candidate = candidate_name
 
     winning_candidate_summary = (
-        f"-------------------\n"
+        f"-------------------------\n"
         f"Winner:{winning_candidate}\n"
         f"Winning Vote Count:{winning_count:,}\n"
         f"winning Percentage:{winning_percentage:.1f}%\n"
-        f"-------------------\n")
+        f"-------------------------\n")
 
     print(winning_candidate_summary)
     txt_file.write(winning_candidate_summary)
