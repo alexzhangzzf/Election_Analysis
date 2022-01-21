@@ -1,4 +1,4 @@
-# Election_Analysis
+# Election Analysis
 ## Overview of Election Audit
 Colorado Board of Elections assign the task to complete an election audit of a recent local congressional election. They want a module to analyze election results using Python and need the information on total number of votes, list of candidates, total votes of each candidate, percentage of votes each candidate won, winner of the election based on votes, voter turnout of each county, percentage of votes from each county and county of highest turnout. We wrote a python programming script for the election audit which can also be applied for future election analysis. 
 ## Election-Audit Results
