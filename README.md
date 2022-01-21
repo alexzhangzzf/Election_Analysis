@@ -21,8 +21,8 @@ The analysis of the election shows as figure below:
 We proposed that this python script can be utilized for any future election analysis with modifications. It can be used to analyze election results for local election or national election, depending on the format and name of the data source. 
 - For different file location or file name, we can modify the code `file_to_load = os.path.join("Resources", "election_results.csv")`, change the folder name and file name, from resources to folder name and election_results to the any source data name. `file_to_load = os.path.join("Resources folder", "election source data.csv")`.
 - Depending on the kind of election, we can also modify the output for county to any region, for example, states for national election.
-`county_results = (f"{county_name}: {county_percentage:.1f}% ({county_vote_count:,})\n")`
-- Another modification may be for the code to read data from each row. Depending on the data source layout, if the cell format is different, we can modify the row cell location for candidate name and county name from figure below to `row[candidate_column]`, `row[region_column]`.
+`county_results = (f"{state_name}: {state_percentage:.1f}% ({state_vote_count:,})\n")`
+- Another possible modification for this code is to read data from each row. Depending on the data source layout, if the cell format is different, we can modify the row cell location for candidate name and county name from figure below to `row[candidate_column]`, `row[region_column]`.
 ![modification_row]( /Resources/modification_row.png)
 With minor modifications we can use the same script to analyze any election results for audit.
 
