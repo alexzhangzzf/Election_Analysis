@@ -26,6 +26,7 @@ We proposed that this python script can be utilized for any future election anal
 - Another possible modification for this code is to read data from each row. Depending on the data source layout, if the cell format is different, we can modify the row cell location for candidate name and county name from figure below to `row[candidate_column]`, `row[region_column]`.
 
 ![modification_row]( /Resources/modification_row.png)
+
 With minor modifications we can use the same script to analyze any election results for audit.
 
    
